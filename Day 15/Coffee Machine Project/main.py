@@ -101,7 +101,8 @@ def run_coffee_machine():
                 if process_payment(order):
                     make_coffee(order)
                     print(f"Here is your {order_input}")
-
+        else:
+            print("Please enter espresso, latte, cappuccino, report, or off.")
 
 run_coffee_machine()
 
