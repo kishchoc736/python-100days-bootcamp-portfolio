@@ -1,0 +1,10 @@
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+
+# PyCharm settings for sub-projects opened on their own
+# (the course's top-level .idea is left alone)
+Day 16-100/*/.idea/
