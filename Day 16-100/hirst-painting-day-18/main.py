@@ -2,7 +2,7 @@ import colorgram
 import turtle as turtle_module
 import random
 # # Extract 6 colors from an image.
-# colors = colorgram.extract('image.jpg', 10)
+# colors = colorgram.extract('image.jpg', 20)
 #
 # rgb_colors = []
 #
@@ -14,8 +14,12 @@ import random
 #     rgb_colors.append(new_color)
 
 
-color_list = [(249, 248, 248), (232, 241, 239), (1, 10, 30), (229, 235, 242),
-              (239, 232, 238), (122, 95, 41), (71, 31, 21), (238, 212, 72), (220, 81, 59), (226, 117, 100)]
+
+
+color_list = [(249, 248, 248), (232, 241, 239), (1, 10, 30), (229, 235, 242), (239, 232, 238),
+              (122, 95, 41), (71, 31, 21),
+              (238, 212, 72), (220, 81, 59), (226, 117, 100), (93, 1, 21), (178, 140, 171), (151, 92, 115),
+              (35, 90, 26), (7, 154, 72), (205, 63, 91), (221, 178, 218), (168, 129, 77), (1, 64, 147), (3, 79, 29)]
 turtle_module.colormode(255)
 tim = turtle_module.Turtle()
 tim.speed("fastest")
